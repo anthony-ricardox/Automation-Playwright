@@ -1,0 +1,3 @@
+page.goto() =  navega
+locator() = encontra
+expect() = valida

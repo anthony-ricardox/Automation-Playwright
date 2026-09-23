@@ -1,0 +1,13 @@
+{
+  "name": "Automation-Playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/anthony-ricardox/Automation-Playwright.git",
+  "author": "Nilton2006 <nilton.silva.codai@ufrpe.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  },
+  "scripts": {}
+}
