@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test"
 
 const BASE_URL = 'https://alisonmelo.github.io/tioalison-pe-t4-fap26/projetos-base/01-sistema-login'
 
-test.describe('ato 1 - validar carregamento e visibilidade de elemento', async () => {
+test.describe('ato 1 - validar carregamento e visibilidade de elemento', () => {
     test('Validar titulo e carregamento da pagina', async ({ page }) => {
         //navegar ate a pagina de login
         await page.goto(`${BASE_URL}/login.html`)
@@ -19,7 +19,5 @@ test.describe('ato 1 - validar carregamento e visibilidade de elemento', async (
 
         //Validar se o botao está desativado ou não
         await expect(page.locator('#loginBtn')).toBeDisabled();
-        
-
     })
 })
